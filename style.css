@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* p, * h2, * button, * a{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+#nav-bar{
+    color: white;
+    background-color: black;
+    width: 620px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#page-title{
+    font-size: 25px;
+}
+
+#main-content{
+    display: flex;
+    gap: 25px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+#profile img{
+    width: 100px;
+}
+
+#profile a{
+    font-size: 15px;
+}
+
+#profile h2{
+    font-size: 25px;
+}
+
+#mc-rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 25px;
+    gap: 25px;
+    border: 2px solid black;
+}
+
+.top-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.like-btn{
+    font-size: 15px;
+    background-color: rgb(255, 234, 116);
+    padding: 8px 15px;
+    box-shadow: 3px 3px 0px black;
+    border: 3px solid black;
+}
+
+.bottom-side{
+    font-size: 20px;
+}
